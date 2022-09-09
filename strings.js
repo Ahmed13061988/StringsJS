@@ -7,3 +7,11 @@ const airline = "Tap Air Portugal";
 const plane = "A320";
 
 console.log(plane[0]);
+console.log(plane[1]);
+console.log(Number(plane[2]));
+
+console.log("B737"[0]);
+
+console.log(airline.length);
+
+console.log("Ahmed".length);
