@@ -26,3 +26,5 @@ const str = airline.slice(4, 7);
 console.log(str.length);
 
 console.log("Ahmed".slice(2));
+
+console.log(airline.slice(0, airline.indexOf(" ")));
