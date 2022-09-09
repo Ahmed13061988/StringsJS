@@ -36,3 +36,21 @@ console.log(airline.slice(-2)); //"al"
 console.log("Ahmed".slice(-3)); // ==> med
 
 console.log("Ahmed".slice(1, -1)); // ==> hme
+
+const checkMidSeat = function (seat) {
+  //b and e are middle seat
+  if (seat.slice(-1) === "b" || seat.slice(-1) === "e") {
+    console.log("You got the middle seat");
+  } else {
+    console.log("You got window or aile seat");
+  }
+};
+checkMidSeat("11g");
+
+const check = function (x) {
+  x.slice(-1) === "b" || x.slice(-1) === "e"
+    ? console.log("You got the middle seat")
+    : console.log("You didn't get the middle seat");
+};
+
+check("11a");
