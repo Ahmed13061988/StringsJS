@@ -6,36 +6,36 @@ const flights =
 const airline = "Tap Air Portugal";
 const plane = "A320";
 
-console.log(plane[0]);
-console.log(plane[1]);
-console.log(Number(plane[2]));
+// console.log(plane[0]);
+// console.log(plane[1]);
+// console.log(Number(plane[2]));
 
-console.log("B737"[0]);
+// console.log("B737"[0]);
 
-console.log(airline.length);
+// console.log(airline.length);
 
-console.log("Ahmed".length);
+// console.log("Ahmed".length);
 
-console.log(airline.indexOf("r"));
-console.log(airline.lastIndexOf("r"));
+// console.log(airline.indexOf("r"));
+// console.log(airline.lastIndexOf("r"));
 
-console.log(airline.indexOf("Portugal"));
+// console.log(airline.indexOf("Portugal"));
 
-console.log(airline.slice(4, 7));
-const str = airline.slice(4, 7);
-console.log(str.length);
+// console.log(airline.slice(4, 7));
+// const str = airline.slice(4, 7);
+// console.log(str.length);
 
-console.log("Ahmed".slice(2));
+// console.log("Ahmed".slice(2));
 
-console.log(airline.slice(0, airline.indexOf(" ")));
+// console.log(airline.slice(0, airline.indexOf(" ")));
 
-console.log(airline.slice(airline.lastIndexOf(" ") + 1));
+// console.log(airline.slice(airline.lastIndexOf(" ") + 1));
 
-console.log(airline.slice(-2)); //"al"
+// console.log(airline.slice(-2)); //"al"
 
-console.log("Ahmed".slice(-3)); // ==> med
+// console.log("Ahmed".slice(-3)); // ==> med
 
-console.log("Ahmed".slice(1, -1)); // ==> hme
+//console.log("Ahmed".slice(1, -1)); // ==> hme
 
 const checkMidSeat = function (seat) {
   //b and e are middle seat
@@ -45,7 +45,7 @@ const checkMidSeat = function (seat) {
     console.log("You got window or aile seat");
   }
 };
-checkMidSeat("11g");
+//checkMidSeat("11g");
 
 const check = function (x) {
   x.slice(-1) === "b" || x.slice(-1) === "e"
@@ -53,4 +53,6 @@ const check = function (x) {
     : console.log("You didn't get the middle seat");
 };
 
-check("11a");
+//check("11a");
+
+console.log(airline.toLocaleLowerCase());
