@@ -18,3 +18,11 @@ console.log("Ahmed".length);
 
 console.log(airline.indexOf("r"));
 console.log(airline.lastIndexOf("r"));
+
+console.log(airline.indexOf("Portugal"));
+
+console.log(airline.slice(4, 7));
+const str = airline.slice(4, 7);
+console.log(str.length);
+
+console.log("Ahmed".slice(2));
