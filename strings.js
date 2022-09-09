@@ -30,3 +30,9 @@ console.log("Ahmed".slice(2));
 console.log(airline.slice(0, airline.indexOf(" ")));
 
 console.log(airline.slice(airline.lastIndexOf(" ") + 1));
+
+console.log(airline.slice(-2)); //"al"
+
+console.log("Ahmed".slice(-3)); // ==> med
+
+console.log("Ahmed".slice(1, -1)); // ==> hme
