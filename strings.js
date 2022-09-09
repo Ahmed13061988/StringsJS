@@ -55,6 +55,13 @@ const check = function (x) {
 
 //check("11a");
 
-console.log(airline.toLocaleLowerCase());
+// console.log(airline.toLocaleLowerCase());
 
-console.log(airline.toUpperCase());
+// console.log(airline.toUpperCase());
+
+const passenger = "aHmED";
+
+let correct =
+  passenger.slice(0, 1).toUpperCase() + passenger.slice(1).toLocaleLowerCase();
+
+console.log(correct);
