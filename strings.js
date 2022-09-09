@@ -56,3 +56,5 @@ const check = function (x) {
 //check("11a");
 
 console.log(airline.toLocaleLowerCase());
+
+console.log(airline.toUpperCase());
