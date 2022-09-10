@@ -65,3 +65,11 @@ let correct =
   passenger.slice(0, 1).toUpperCase() + passenger.slice(1).toLocaleLowerCase();
 
 console.log(correct);
+
+function capitalizedName(name) {
+  console.log(
+    name.slice(0, 1).toUpperCase() + name.slice(1).toLocaleLowerCase()
+  );
+}
+
+capitalizedName("fewf");
