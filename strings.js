@@ -92,12 +92,17 @@ const priceGB = "288,97£";
 const priceUS = priceGB.replace(",", ".").replace("£", "$");
 
 console.log(priceUS);
-const announcment = "All passenger pla come to dore 23. door 23!";
+const announcment = "All passenger pla come to dore 23. dore 23!";
 
 const correctAnnouncment = announcment
   .replace("pla", "please")
-  .replace("dore", "gate")
-  .replace("door", "gate")
+  .replaceAll("dore", "gate") // or replace(/door/g, "Gate"); this is before replaceAll method.
   .replace(".", "!");
 
 console.log(correctAnnouncment);
+
+const plane1 = "A320neo";
+console.log(plane1.includes("A")); // true
+console.log(plane1.startsWith("B")); // false
+console.log(plane1.endsWith("o")); // true
+console.log(plane1.endsWith("O")); // ==> false because of case sensetive
