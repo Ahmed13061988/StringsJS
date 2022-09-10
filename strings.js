@@ -104,5 +104,12 @@ console.log(correctAnnouncment);
 const plane1 = "A320neo";
 console.log(plane1.includes("A")); // true
 console.log(plane1.startsWith("B")); // false
+console.log(plane1.startsWith("A32")); // true
 console.log(plane1.endsWith("o")); // true
 console.log(plane1.endsWith("O")); // ==> false because of case sensetive
+
+const plane2 = "Airbus A320neo";
+
+if (plane2.startsWith("Air") && plane2.endsWith("neo"))
+  console.log("This airplane is Airbus A320neo");
+else console.log("This is not Airbus A320neo");
