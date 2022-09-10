@@ -85,4 +85,10 @@ function checkCorrect(correctEmail, checkingEmail) {
     : console.log(`It's not correct`);
 }
 
-checkCorrect(email, lowerEmail);
+//checkCorrect(email, lowerEmail);
+
+//Replacing
+const priceGB = "288,97£";
+const priceUS = priceGB.replace(",", ".").replace("£", "$");
+
+console.log(priceUS);
