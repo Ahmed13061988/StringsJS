@@ -115,9 +115,11 @@ if (plane2.startsWith("Air") && plane2.endsWith("neo"))
 else console.log("This is not Airbus A320neo");
 
 const checkBaggage = function (items) {
-  items.toLowerCase().includes("laptop", "food", "pocket knife")
-    ? console.log("The baggage is correct")
-    : console.log("The baggage is not correct and something missing");
+  items.toLowerCase().includes("knife") || items.toLowerCase().includes("gun")
+    ? console.log("You're not allowed on the airplane")
+    : console.log("You're allowed on the airplane, have a safe flight");
 };
 
 checkBaggage("I have Laptop, some Food and pocket Knife");
+checkBaggage("I have a gUn");
+checkBaggage("I have laptop, phone and fOOd");
