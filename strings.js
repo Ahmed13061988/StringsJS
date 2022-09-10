@@ -72,4 +72,9 @@ function capitalizedName(name) {
   );
 }
 
-capitalizedName("fewf");
+//Compairing emails
+const email = "hello@ahmed.io";
+const loginEmail = "  Hello@Ahmed.Io \n";
+const lowerEmail = loginEmail.toLocaleLowerCase();
+const trimEmail = lowerEmail.trim(); // trim will remove all spaces before and after the string
+console.log(trimEmail);
