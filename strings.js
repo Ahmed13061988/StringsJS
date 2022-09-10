@@ -113,3 +113,11 @@ const plane2 = "Airbus A320neo";
 if (plane2.startsWith("Air") && plane2.endsWith("neo"))
   console.log("This airplane is Airbus A320neo");
 else console.log("This is not Airbus A320neo");
+
+const checkBaggage = function (items) {
+  items.includes("laptop", "food", "pocket knife")
+    ? console.log("The baggage is correct")
+    : console.log("The baggage is not correct and something missing");
+};
+
+checkBaggage("I have laptop, some food and pocket knife");
