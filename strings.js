@@ -92,3 +92,12 @@ const priceGB = "288,97£";
 const priceUS = priceGB.replace(",", ".").replace("£", "$");
 
 console.log(priceUS);
+const announcment = "All passenger pla come to dore 23. door 23!";
+
+const correctAnnouncment = announcment
+  .replace("pla", "please")
+  .replace("dore", "gate")
+  .replace("door", "gate")
+  .replace(".", "!");
+
+console.log(correctAnnouncment);
