@@ -75,6 +75,14 @@ function capitalizedName(name) {
 //Compairing emails
 const email = "hello@ahmed.io";
 const loginEmail = "  Hello@Ahmed.Io \n";
-const lowerEmail = loginEmail.toLocaleLowerCase();
-const trimEmail = lowerEmail.trim(); // trim will remove all spaces before and after the string
-console.log(trimEmail);
+const lowerEmail = loginEmail.toLocaleLowerCase().trim();
+//const trimEmail = lowerEmail.trim(); // trim will remove all spaces before and after the string
+console.log(lowerEmail);
+
+function checkCorrect(correctEmail, checkingEmail) {
+  correctEmail === checkingEmail
+    ? console.log(`It's correct`)
+    : console.log(`It's not correct`);
+}
+
+checkCorrect(email, lowerEmail);
