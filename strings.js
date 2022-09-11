@@ -124,6 +124,7 @@ const checkBaggage = function (items) {
 // checkBaggage("I have a gUn");
 // checkBaggage("I have laptop, phone and fOOd");
 
+//split() and join()
 console.log("a+very+nice+string".split("+"));
 console.log("Ahmed Hussein".split(" "));
 
@@ -133,3 +134,14 @@ console.log("Ahmed & Atyaf".split("&"));
 
 const arr = ["Mr.", firstName, lastName.toUpperCase()].join(" ");
 console.log(arr);
+
+const capitalized = function (name) {
+  const names = name.split(" ");
+  const namesUpper = [];
+  for (const n of names) {
+    namesUpper.push(n[0].toUpperCase() + n.slice(1));
+  }
+  console.log(namesUpper.join(" "));
+};
+
+capitalized("jessica ann smith davis");
