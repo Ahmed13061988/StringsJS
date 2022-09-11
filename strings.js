@@ -139,9 +139,10 @@ const capitalized = function (name) {
   const names = name.split(" ");
   const namesUpper = [];
   for (const n of names) {
-    namesUpper.push(n[0].toUpperCase() + n.slice(1));
+    let m = n.toLowerCase();
+    namesUpper.push(m.slice(0, 1).toUpperCase() + m.slice(1));
   }
   console.log(namesUpper.join(" "));
 };
 
-capitalized("jessica ann smith davis");
+capitalized("jessica aNn smiTH davis uBaIdi");
