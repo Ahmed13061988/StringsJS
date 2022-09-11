@@ -146,3 +146,8 @@ const capitalized = function (name) {
 };
 
 capitalized("jessica aNn smiTH davis uBaIdi");
+
+//Padding
+
+const message = "Go to gate 23";
+console.log(message.padStart(25, "+"));
