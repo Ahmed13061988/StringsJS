@@ -130,3 +130,6 @@ console.log("Ahmed Hussein".split(" "));
 const [firstName, lastName] = "Ahmed Hussein".split(" ");
 console.log(firstName, lastName);
 console.log("Ahmed & Atyaf".split("&"));
+
+const arr = ["Mr.", firstName, lastName.toUpperCase()].join(" ");
+console.log(arr);
