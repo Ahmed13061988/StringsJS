@@ -126,4 +126,7 @@ const checkBaggage = function (items) {
 
 console.log("a+very+nice+string".split("+"));
 console.log("Ahmed Hussein".split(" "));
+
+const [firstName, lastName] = "Ahmed Hussein".split(" ");
+console.log(firstName, lastName);
 console.log("Ahmed & Atyaf".split("&"));
