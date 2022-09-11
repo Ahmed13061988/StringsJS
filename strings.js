@@ -125,3 +125,5 @@ const checkBaggage = function (items) {
 // checkBaggage("I have laptop, phone and fOOd");
 
 console.log("a+very+nice+string".split("+"));
+console.log("Ahmed Hussein".split(" "));
+console.log("Ahmed & Atyaf".split("&"));
