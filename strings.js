@@ -120,6 +120,8 @@ const checkBaggage = function (items) {
     : console.log("You're allowed on the airplane, have a safe flight");
 };
 
-checkBaggage("I have Laptop, some Food and pocket Knife");
-checkBaggage("I have a gUn");
-checkBaggage("I have laptop, phone and fOOd");
+// checkBaggage("I have Laptop, some Food and pocket Knife");
+// checkBaggage("I have a gUn");
+// checkBaggage("I have laptop, phone and fOOd");
+
+console.log("a+very+nice+string".split("+"));
