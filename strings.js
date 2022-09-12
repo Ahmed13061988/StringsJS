@@ -152,3 +152,12 @@ capitalized("jessica aNn smiTH davis uBaIdi");
 const message = "Go to gate 23";
 console.log(message.padStart(25, "+").padEnd(30, "+"));
 console.log("Ahmed".padStart(30, "Great"));
+
+const maskCreditCard = function (number) {
+  const str = String(number);
+  // const str = number + " "; this will convert into string
+  return str.slice(12).padStart(20, "*");
+};
+
+console.log(maskCreditCard(4342456778823412));
+maskCreditCard("1234342355354343141");
