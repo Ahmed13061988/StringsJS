@@ -167,3 +167,9 @@ console.log(maskCreditCard("1234342355354343141"));
 const message2 = "Bad weather... All Departues Delayed";
 
 console.log(message2.repeat(5));
+
+const planesInLine = function (n) {
+  console.log(`There are ${n} planes in line ${"🛩".repeat(n)} `);
+};
+
+planesInLine(5);
