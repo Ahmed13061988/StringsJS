@@ -161,6 +161,8 @@ const maskCreditCard = function (number) {
 
 console.log(maskCreditCard(4342456778823412));
 console.log(maskCreditCard("1234342355354343141"));
+console.log(maskCreditCard(BigInt(98678990789067856)));
+console.log(maskCreditCard(BigInt(35463462346565254325342534253)));
 
 //Repeat method
 
