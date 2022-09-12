@@ -156,7 +156,7 @@ console.log("Ahmed".padStart(30, "Great"));
 const maskCreditCard = function (number) {
   const str = String(number);
   // const str = number + " "; this will convert into string
-  return str.slice(12).padStart(20, "*");
+  return str.slice(-4).padStart(str.length, "*");
 };
 
 console.log(maskCreditCard(4342456778823412));
